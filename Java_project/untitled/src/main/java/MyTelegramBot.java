@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class MyTelegramBot extends TelegramLongPollingBot {
 
-    public static final String BOT_TOKEN = "712706797:AAFMTDLo7mh29XrOjsk8_KZeODhGKRqla0s";
+    public static final String ";
 
     public static final String BOT_USERNAME = "pybot";
 
@@ -38,8 +38,8 @@ public class MyTelegramBot extends TelegramLongPollingBot {
             chat_id = update.getMessage().getChatId();
             switch (update.getMessage().getText()) {
                 case "/help":
-                    sendMessage("Привет, я бот NASA! Я высылаю ссылки на картинки по запросу. " +
-                            "Напоминаю, что картинки на сайте NASA обновляются раз в сутки");
+                    sendMessage("ГЏГ°ГЁГўГҐГІ, Гї ГЎГ®ГІ NASA! Гџ ГўГ»Г±Г»Г«Г Гѕ Г±Г±Г»Г«ГЄГЁ Г­Г  ГЄГ Г°ГІГЁГ­ГЄГЁ ГЇГ® Г§Г ГЇГ°Г®Г±Гі. " +
+                            "ГЌГ ГЇГ®Г¬ГЁГ­Г Гѕ, Г·ГІГ® ГЄГ Г°ГІГЁГ­ГЄГЁ Г­Г  Г±Г Г©ГІГҐ NASA Г®ГЎГ­Г®ГўГ«ГїГѕГІГ±Гї Г°Г Г§ Гў Г±ГіГІГЄГЁ");
                     break;
                 case "/give":
                     try {
@@ -49,7 +49,7 @@ public class MyTelegramBot extends TelegramLongPollingBot {
                     }
                     break;
                 default:
-                    sendMessage("Я не понимаю :(");
+                    sendMessage("Гџ Г­ГҐ ГЇГ®Г­ГЁГ¬Г Гѕ :(");
             }
         }
     }
